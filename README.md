@@ -1,2 +1,8 @@
 # Parallelizing-Travelling-Salesman-Problem-Using-Genetic-Algorithm
 Parallel Processing Project done in the 6th Semester of B.Tech
+Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
+Travelling Salasman Problem is a NP hard Problem.
+Genetic Algorithm is a metaheuristic involving the process of natural selection through which multiple paths are generated. Randomness is introduced by Crossovers.
+Made use of multiple GPU cores to compute different optimal paths in a stage. Increased performance on computer by 10x.
+Technologies: CUDA, C, Visual Studio.
+Travelling Salesperson Problem being a classic combinatorial optimization problem is an interesting but a challenging problem to be solved. It falls under the class of NP-hard problem and becomes non-solvable for large data set by traditional methods like integer linear programming and branch and bound method, being the earlier popular approaches. Genetic Algorithm based solutions emerged as the most popular tool to solve the problem which is a heuristic mechanism to find the closest approximate solution to the problem. We approach Travelling Salesman Problem using GA approach, a natural selection technique which repeatedly modifies a population of individual solutions, with the added power of modern computing systems. Here we come up with a parallel version of GA for both multicore and many core architectures over CUDA in order to make some of the challenging problems like Vehicle Routing Problem for google maps, DNA sequencing and many more optimization problems involving a good amount of complex computation and data handling. 
